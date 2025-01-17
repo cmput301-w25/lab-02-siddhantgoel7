@@ -16,7 +16,6 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class MainActivity extends AppCompatActivity {
-    //3 different lists
     ListView cityList;
     ArrayAdapter<String> cityAdapter;
     ArrayList<String> dataList;
@@ -75,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //exmaple shown in lab
         dataList.add("Calgary");
         cityAdapter.notifyDataSetChanged();
     }
